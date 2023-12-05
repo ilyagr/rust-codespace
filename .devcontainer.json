@@ -11,4 +11,5 @@
 		"ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0": {},
 		"ghcr.io/devcontainers-contrib/features/fish-apt-get:1": {}
 	}
+        "postCreateCommand": "jj config set --user user.name 'Ilya Grigoriev'; jj config set --user user.email 'ilyagr@users.noreply.github.con'; jj init --git-repo=.",	
 }
