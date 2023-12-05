@@ -13,7 +13,9 @@
 			"packages": "jj-cli,cargo-insta"
 		},
 		"ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0": {}
-	}
+	},
+  
+  "postCreateCommand": "jj config set --user user.name 'Ilya Grigoriev'; jj config set --user user.email 'ilyagr@users.noreply.github.con'; jj init --git-repo=.",	
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
 	// "mounts": [
@@ -26,9 +28,7 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+ 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "rustc --version",
