@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest",
+			"profile": "minimal"
+		},
+		"ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0": {
+			"packages": "jj-cli,cargo-insta"
+		},
+		"ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0": {},
+		"ghcr.io/devcontainers-contrib/features/fish-apt-get:1": {}
+	}
+}
