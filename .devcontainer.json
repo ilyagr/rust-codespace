@@ -10,7 +10,7 @@
 			"fisher": true
 		},
 		"ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0": {
-			"packages": "jj-cli,cargo-insta,hwatch"
+			"packages": "jj-cli,cargo-insta,hwatch,ouch"
 		},
 		"ghcr.io/lee-orr/rusty-dev-containers/cargo-nextest:0": {}
 	},
