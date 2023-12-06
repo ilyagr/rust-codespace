@@ -16,6 +16,7 @@
 	},
   
   "postCreateCommand": "jj config set --user user.name 'Ilya Grigoriev'; jj config set --user user.email 'ilyagr@users.noreply.github.con'; jj init --git-repo=.",	
+  "containerEnv": { "EDITOR": "code --wait" }
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
 	// "mounts": [
